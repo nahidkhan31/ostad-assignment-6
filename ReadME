@@ -1,0 +1,74 @@
+Real-World Git & GitHub Workflow Simulation
+Step 1: Understanding the real-life scenario
+Imagine you are working as a junior developer in a small software team. The company is building a simple website project. Multiple developers are working on the same codebase, so they use Git and GitHub to manage changes safely.
+
+Your task is to simulate this professional workflow on your own computer. You will practise creating a repository, making commits, working with branches, pushing code to GitHub, and resolving conflicts just like in a real company environment.
+
+This assignment exists to teach you how real development teams avoid losing code, track progress, and collaborate efficiently.
+
+Step 2: Creating and managing a local Git repository
+Create a new project folder named module-6-git-workflow. Inside the folder, create a simple file called index.html and write a basic HTML structure with a heading that says “Git Practice Project”.
+
+Open the folder in VS Code and initialize Git using the appropriate command. After initializing, check the repository status and observe which files are untracked.
+
+Stage the file properly and commit it with a meaningful commit message describing what you added. View the commit history to confirm that the commit was saved correctly.
+
+Step 3: Working with branches like a professional developer
+Create a new branch named feature-section. Switch to this branch and edit the index.html file by adding a new section under the heading. For example, add a paragraph describing a new feature of the website.
+
+After making changes, check the status, stage the file, and commit it with a message explaining what feature you added.
+
+Now switch back to the main branch and notice that the new section does not appear there yet.
+
+Merge the feature-section branch into the main branch and confirm that the changes are now combined.
+
+Step 4: Connecting the project with GitHub
+Create a GitHub account if you do not already have one. On GitHub, create a new empty repository.
+
+Connect your local repository to the remote GitHub repository using the proper remote command.
+
+Push your local commits to GitHub and verify by refreshing the repository page in the browser.
+
+Step 5: Simulating collaboration using changes
+Modify the index.html file again locally by adding another paragraph.
+
+Commit the changes and push them to GitHub.
+
+Then, using GitHub’s interface or GitHub Desktop, create a new branch and modify the same file in a slightly different way.
+
+Fetch the remote changes back to your local machine and try merging them.
+
+If a merge conflict occurs, carefully open the file, review both versions of code, fix the conflict manually, and commit the resolved version.
+
+This step teaches you how real developers handle code conflicts calmly instead of panicking.
+
+Step 6: Using Pull Requests for review
+On GitHub, create a Pull Request from your new branch to the main branch.
+
+Write a short description explaining what changes you made.
+
+Merge the Pull Request after reviewing it.
+
+This simulates how teams review code before adding it to production.
+
+Step 7: Reviewing history and workflow
+View the commit history locally and on GitHub.
+
+Observe how each commit tells a story of what was changed and when.
+
+Open a file’s modification history on GitHub and understand how tracking works.
+
+Step 8: Final review and submission
+Make sure your repository includes:
+
+• Multiple commits
+
+• At least one branch created and merged
+
+• Code pushed to GitHub
+
+• A Pull Request created and merged
+
+• A merge conflict resolved
+
+For submission, please provide: The public repository link.
