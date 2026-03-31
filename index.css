@@ -23,7 +23,7 @@ body {
 }
 
 .conflict-resolution {
-  background-color: #fff3cd; 
+  background-color: #fff3cd;
   border: 2px dashed #ffeeba;
   border-radius: 8px;
   padding: 20px;
@@ -54,4 +54,25 @@ body {
   background-color: #d1ecf1;
   padding: 5px;
   border-radius: 4px;
+}
+.action-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #e1e8ed;
+  padding-bottom: 15px;
+  margin-top: 0;
 }
